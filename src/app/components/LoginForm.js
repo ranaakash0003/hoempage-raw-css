@@ -98,20 +98,10 @@ export default function AuthForm() {
           />
         </div>
         <div className="agree-checkbox-container">
-          {/* <div
-              onClick={toggleTermsAcceptance}
-              className=""
-            >
-              {isTermsAccepted && (
-                <span className="">
-                  <span className=""></span>
-                </span>
-              )}
-            </div> */}
           <input type="checkbox" id="terms-checkbox" />
           <div className="agree-checkbox">
             <p>
-              I agree to the <span className="">Terms & Conditions</span>
+              I agree to the <span>Terms & Conditions</span>
             </p>
           </div>
         </div>
